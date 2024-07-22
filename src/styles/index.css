@@ -1,38 +1,70 @@
-
 .trafic-ligth {
-  width: 8rem;
-  padding: 1rem;
-  border-radius: 10%;
-  margin: auto; background-color: rgb(51, 50, 49);
+    width: 8rem;
+    padding: 1rem;
+    border-radius: 10%;
+    margin: auto;
+    background-color: rgb(51, 50, 49);
 }
-  
+
 .luz {
     width: 88px;
     height: 86px;
     border-radius: 50%;
     margin: 3%;
-   
 }
-#luz-roja {
-background-color: red; 
-left: 50%;
-top: 50%;
+
+.redOn {
+    background-color: red;
 
 }
-  #luz-amarilla {
-    background-color: yellow;
-  }
-  
-  #luz-verde {
-    background-color: green;
-  }
- /* @keyframes luz-roja {
+
+.red {
+    background-color: rgb(110, 0, 0);
+
+}
+
+.ambar {
+    background-color: rgb(168, 90, 0);
+}
+
+.ambarOn {
+    background-color: rgb(214, 157, 1);
+}
+
+.green {
+    background-color: rgb(0, 85, 0);
+}
+
+.greenOn {
+    background-color: rgb(0, 230, 0);
+
+}
+
+.purpleOn {
+    background-color: rgb(182, 0, 182);
+}
+
+
+
+
+
+/* @keyframes luz-roja {
     0% { background-color: red; }
     33% { background-color: black; }
     66% { background-color: black; }
     100% { background-color: red; }
   }
-  
+  @keyframes greenOn {
+    0% {
+        background-color: rgb(0, 85, 0);
+    }
+
+    100% {
+        background-color: rgb(0, 230, 0);
+    }
+
+    ;
+}
   @keyframes luz-amarilla {
     0% { background-color: black; }
     33% { background-color: yellow; }
@@ -40,11 +72,7 @@ top: 50%;
     100% { background-color: black; }
   }
   
-  @keyframes luz-verde {
-    0% { background-color: black; }
-    33% { background-color: black; }
-    66% { background-color: green; }
-    100% { background-color: black; }
+ 
   }
   
   #luz-roja {
@@ -130,5 +158,3 @@ Estilos para pantallas grandes en modo horizontal
 }
 
 */
-
- 
