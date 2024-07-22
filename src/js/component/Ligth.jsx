@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 
 const Ligth = () => {
-  const colors = ["red", "amber", "green", "purple"];
-
   const [color, setColor] = useState("red");
+
 
   return (
     <div className="container">
@@ -31,15 +30,36 @@ const Ligth = () => {
         ></div>
       </div>
       <div className="">
-        <button type="button" class="btn btn-outline-danger">
+        <button
+          type="button"
+          class="btn btn-outline-danger"
+          onClick={() => {
+            setColor("redOn");
+          }}
+        >
           Danger
         </button>
-        <button type="button" class="btn btn-outline-warning">
+        <button
+          type="button"
+          class="btn btn-outline-warning"
+          onClick={() => {
+            setColor("ambarOn");
+          }}
+        >
           Warning
         </button>
-        <button type="button" class="btn btn-outline-success">
+        <button
+          type="button"
+          class="btn btn-outline-success"
+          onClick={() => {
+            setColor("greenOn");
+          }}
+        >
           Success
         </button>
+      </div>
+      <div>
+       
       </div>
     </div>
   );
