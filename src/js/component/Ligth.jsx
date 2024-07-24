@@ -29,7 +29,7 @@ const Ligth = () => {
           }}
         ></div>
       </div>
-      <div className="">
+      <div className="mt-3 justify-content-around">
         <button
           type="button"
           class="btn btn-outline-danger"
